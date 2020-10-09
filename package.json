@@ -6,7 +6,12 @@
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "@tensorflow-models/handpose": "^0.0.6",
+    "@tensorflow/tfjs-converter": "^2.6.0",
+    "@tensorflow/tfjs-core": "^2.6.0",
+    "fingerpose": "^0.0.2"
+  },
   "devDependencies": {
     "prettier": "^2.0.5",
     "snowpack": "^2.13.3"
