@@ -1,5 +1,6 @@
 {
   "mount": {
+    "public/models": { "url": "/models", "static": true, "resolve": false },
     "public": "/",
     "src": "/_dist_"
   },

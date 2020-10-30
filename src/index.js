@@ -11,6 +11,8 @@ async function loadModel() {
   await faceapi.loadSsdMobilenetv1Model(MODEL_URL);
   await faceapi.loadFaceLandmarkModel(MODEL_URL);
   await faceapi.loadFaceRecognitionModel(MODEL_URL);
+
+  console.log("loaded")
 }
 
 function startWebcam() {
