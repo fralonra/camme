@@ -6,7 +6,9 @@
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "three": "^0.122.0"
+  },
   "devDependencies": {
     "prettier": "^2.0.5",
     "snowpack": "^2.13.3"
